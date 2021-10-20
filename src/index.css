@@ -1,13 +1,84 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.contenedor{
+  overflow: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.inicio{
+  width: 100%;
+  height: 100vh;
+}
+
+/* SOBRE MI */
+.sobre-mi{
+  padding: 4rem 0 4rem 0;
+  background: #8585851a;
+}
+.avatar{
+  width: 90px;
+}
+
+.iconos-redes a{
+  border: none;
+  margin: 0 1rem;
+}
+
+.img-redes{
+  width: 25px;
+}
+
+/* PROYECTOS */
+.proyectos{
+  padding: 4rem 0 3rem 0;
+}
+
+/* TECNOLOGIAS - HABILIDADES */
+.tecnologias{
+  padding: 5rem 0 6rem 0;
+  background: #8585851a;
+}
+
+.contenedor-tecnologias{
+  text-align: center;
+}
+
+.imagen-tecnologias{
+  width: 34px;
+  margin: 0 10px;
+}
+
+.list-group-item{
+  background: none;
+  padding: 7px 0;
+}
+
+.list-group-item:hover{
+  background: rgba(223, 223, 223, 0.726);
+}
+
+/* CONTACTO */
+.contacto{
+  padding: 4rem 0 6rem 0;
+}
+
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+  color: currentColor !important;
+}
+
+.css-1480iag-MuiInputBase-root-MuiInput-root:after{
+  border: none !important;
+}
+
+.contacto button{
+  border: 1px solid #00000087;
+  margin-top: 1rem;
+  color: black;
+  padding: 4px 12px;
+  float: right;
+  background: none;
+  transition: all 500ms;
+}
+
+.contacto button:hover{
+  background: black;
+  color: white;
+  transform: scale(1.1);
 }

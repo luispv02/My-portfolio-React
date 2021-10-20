@@ -1,0 +1,21 @@
+.nav-bottom{
+    width: 100%;
+    background: white;
+    position: fixed;
+    bottom:0;
+    border-top: 1px solid black;
+    z-index: 9;
+}
+
+.img-nav-bottom{
+    width: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li{
+    list-style: none;
+}
