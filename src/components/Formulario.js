@@ -8,7 +8,7 @@ function Formulario() {
         <div data-aos="fade-up">
             <Container>
                 <Row>
-                    <Col>
+                    <Col md={10} lg={8} className="m-auto">
                         <h2 className="text-center">Contacto</h2>
                         <form className="p-3">
                             <div>

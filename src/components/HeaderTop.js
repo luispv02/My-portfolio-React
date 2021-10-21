@@ -2,35 +2,32 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Nav from 'react-bootstrap/Nav'
 import {Typewriter} from 'react-simple-typewriter'
+import './HeaderTop.css'
 
 function HeaderTop() {
     return (
-        <div className="header-top bg-black">
+        <div className="header-top">
             <Container>
-                <Row>
-                    <Col xs={12}>
-                        <h1 className="text-white text-center py-2">
+                <Row className="align-items-md-center">
+                    <Col xs={12} md={6}>
+                        <a href="#inicio" className="text-white text-center py-3 text-md-start logo text-decoration-none d-block">
                             <Typewriter 
                                 words={['LuisPv']}
                                 typeSpeed="350"
-                            /></h1>
+                            /></a>
                     </Col>
 
-                    <Col>
-                        <nav className="d-none">
+                    <Col xs={12} md={6}>
+                        <nav className="d-none d-md-block d-md-flex justify-content-md-around nav-top">
                             <li>
-                                <a href="#inicio">Inicio</a>
+                                <a href="#sobre-mi" className="text-white text-decoration-none enlace">Sobre Mi</a>
                             </li>
                             <li>
-                                <a href="#sobre-mi">Sobre Mi</a>
+                                <a href="#proyectos" className="text-white text-decoration-none enlace">Proyectos</a>
                             </li>
                             <li>
-                                <a href="#proyectos">Proyectos</a>
-                            </li>
-                            <li>
-                                <a href="#contacto">Contacto</a>
+                                <a href="#contacto" className="text-white text-decoration-none enlace">Contacto</a>
                             </li>
                         </nav>
                     </Col>

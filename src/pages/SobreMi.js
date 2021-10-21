@@ -13,7 +13,7 @@ function SobreMi() {
     return (
         <div className="contenedor-sobremi">
             <Container>
-                <Row>
+                <Row className="flex-md-row-reverse">
                     <Col xs={12} md={6}>
                         <div className="fotografia text-center" data-aos="fade-right">
                             <img src={Foto} alt="fotografia LuisPv" className="avatar" />
@@ -27,7 +27,7 @@ function SobreMi() {
                         </div>
                     </Col>
 
-                    <Col xs={12} md={6} className="mt-5">
+                    <Col xs={12} md={6} className="mt-5 mt-md-0">
                         <div className="informacion px-2" data-aos="fade-left">
                             <h2>Sobre Mi</h2>
                             <p className="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper risus vel dolor pretium, euismod molestie mi faucibus. Nunc eu ex ut ante vehicula consectetur ac id ex. Pellentesque pellentesque viverra porttitor. Suspendisse non aliquam diam. Aenean non turpis nec risus placerat commodo sed a nibh. Donec eleifend luctus diam, id interdum orci scelerisque in. Praesent imperdiet ut massa at vulputate.</p>

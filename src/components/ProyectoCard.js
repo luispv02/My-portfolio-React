@@ -9,9 +9,9 @@ function ProyectoCard({proyecto}) {
 
   
     return (
-        <Col md={6}>
+        <Col md={6} lg={4} className="mx-auto">
             <div className="card mb-5"  data-aos="fade-up">
-                <img src={proyecto.imagen} alt="imagen proyecto"/>
+                <img src={proyecto.imagen} alt="imagen proyecto" className="img-proyecto"/>
 
                 <div className="card-body">
                     <h3>{proyecto.titulo}</h3>

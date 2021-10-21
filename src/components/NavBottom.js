@@ -10,7 +10,7 @@ import Contacto from '../assets/images/contacto.png'
 
 function NavBottom() {
     return (
-        <div className="nav-bottom py-3" >
+        <div className="nav-bottom py-3 d-md-none" >
             <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                 <Row>
                     <Col>

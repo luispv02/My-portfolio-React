@@ -14,9 +14,9 @@ export default function Tecnologias() {
         <div className="contenedor-tecnologias" data-aos="fade-up">
             <Container>
                 <Row >
-                    <Col xs={12}>
+                    <Col xs={12} md={6}>
                         <div className="imagenes-tecnologias mb-5">
-                            <h2 className="mb-4">Tecnologias</h2>
+                            <h2 className="mb-4">Hard Skill</h2>
                             <div className="imagenes justify-content-around">
                                 <img src={Html} alt="imagen html" className="imagen-tecnologias"/>
                                 <img src={Css} alt="imagen css" className="imagen-tecnologias"/>
@@ -27,9 +27,9 @@ export default function Tecnologias() {
                         </div>
                     </Col>
 
-                    <Col xs={12}>
+                    <Col xs={12} md={6}>
                         <div className="habilidades">
-                            <h2>Habilidades</h2>
+                            <h2>Soft Skills</h2>
                             <div className="lista-habilidades">
                                 <ListGroup variant="flush">
                                     <ListGroup.Item>Ganas de aprender</ListGroup.Item>

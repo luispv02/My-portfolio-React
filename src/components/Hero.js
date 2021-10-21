@@ -16,7 +16,7 @@ function Hero() {
     
     return (
         <div className="hero">
-            <video src={Fondo} muted autoPlay></video>
+            <video src={Fondo} loop muted autoPlay></video>
             <Container>
                 <Row>
                     <Col xs={12} className="text-center my-5">

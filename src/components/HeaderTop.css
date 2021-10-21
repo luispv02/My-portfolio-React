@@ -1,0 +1,64 @@
+.header-top{
+    background: black;
+}
+
+.logo{
+    font-size: 20px;
+}
+
+
+@media(min-width:768px){
+    .header-top{
+        width: 100%;
+        background: inherit;
+        position: fixed;
+        transition: all 350ms;
+        z-index: 9;
+    }
+
+    .show{
+        background: black ;
+    }
+
+    .logo{
+        font-size: 1.3rem;
+        margin: 0 !important;
+        padding: .5rem 0 !important;
+    }
+
+    .nav-top li{
+        transition: all 500ms;
+    }
+
+    .nav-top li:hover{
+        transform: scale(1.2);
+    }
+
+    .nav-top li a{
+        font-size: 15px;
+    }
+    
+
+    .active-desktop{
+        background: white;
+        color:black !important;
+        transition: all 500ms;
+        padding: 3px 8px;
+    }
+}
+
+@media(min-width:1024px){
+    .logo{
+        font-size: 1.6rem;
+        padding: 0;
+    }
+
+    .nav-top{
+        display: flex !important;
+        justify-content: flex-end !important;
+    }
+    
+    .nav-top li{
+        margin-left: 3rem;
+    }
+}
