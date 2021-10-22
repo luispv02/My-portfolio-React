@@ -23,6 +23,11 @@
 
 .img-redes{
   width: 25px;
+  transition: all 400ms;
+}
+
+.img-redes:hover{
+  transform: translateY(-10px);
 }
 
 @media (min-width: 768px){

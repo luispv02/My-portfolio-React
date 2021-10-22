@@ -18,11 +18,11 @@ function SobreMi() {
                         <div className="fotografia text-center" data-aos="fade-right">
                             <img src={Foto} alt="fotografia LuisPv" className="avatar" />
 
-                            <div className="iconos-redes mt-3">
-                                <a href="!#"><img src={Github} alt="icon github" className="img-redes"/></a>
-                                <a href="!#"><img src={Linkedin} alt="icon Linkedin" className="img-redes"/></a>
-                                <a href="!#"><img src={Whatsapp} alt="icon Whatsapp" className="img-redes"/></a>
-                                <a href="!#"><img src={Facebook} alt="icon Facebook" className="img-redes"/></a>
+                            <div className="iconos-redes mt-4">
+                                <a href="https://github.com/luispv02" target="_blank" rel="noopener noreferrer"><img src={Github} alt="icon github" className="img-redes"/></a>
+                                <a href="https://www.linkedin.com/in/luis-fernando-p%C3%A9rez-varajas-b6539818b/" target="_blank" rel="noopener noreferrer"><img src={Linkedin} alt="icon Linkedin" className="img-redes"/></a>
+                                <a href="https://api.whatsapp.com/send?phone=527841109307" target="_blank" rel="noopener noreferrer"><img src={Whatsapp} alt="icon Whatsapp" className="img-redes"/></a>
+                                <a href="https://www.facebook.com/luisfernando.perezvarajas.5" target="_blank" rel="noopener noreferrer"><img src={Facebook} alt="icon Facebook" className="img-redes"/></a>
                             </div>
                         </div>
                     </Col>

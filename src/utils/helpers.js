@@ -45,6 +45,8 @@ export function menuScroll(){
             enlaces[2].classList.remove('active-desktop')
         }else{
             enlaces[0].classList.remove('active-desktop')
+            enlaces[1].classList.remove('active-desktop')
+            enlaces[2].classList.remove('active-desktop')
         }
 
   

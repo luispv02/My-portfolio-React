@@ -7,7 +7,6 @@ import Tooltip from 'react-bootstrap/Tooltip'
 
 function ProyectoCard({proyecto}) {
 
-  
     return (
         <Col md={6} lg={4} className="mx-auto">
             <div className="card mb-5"  data-aos="fade-up">
@@ -19,17 +18,17 @@ function ProyectoCard({proyecto}) {
                     <div className="card-icons">
                         <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">Ver Codigo</Tooltip>}>
                             <span>
-                                <button>
-                                    <img src={Github} alt="icono github" className="icon-github"/>
-                                </button>
+                                <a href={proyecto.github} target="_blank" rel="noopener noreferrer">
+                                    <img src={Github} alt="icono github" className="icon-github img-fluid"/>
+                                </a>
                             </span>
                         </OverlayTrigger>
 
                         <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">Ver Pagina</Tooltip>}>
                             <span>
-                                <button>
+                                <a href={proyecto.pagina}>
                                     <img src={Internet} alt="icono github" className="icon-github"/>
-                                </button>
+                                </a>
                             </span>
                         </OverlayTrigger>
                     </div>

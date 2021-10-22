@@ -1,10 +1,10 @@
 .proyectos-card{
-    padding: 1rem 1rem 0 1rem;
+    padding: 1rem 2rem 0 2rem;
 }
 
 .card{
     border: 1px solid rgba(117, 117, 117, 0.863);
-    transition: all 500ms;
+    transition: all 400ms;
 }
 
 .card:hover {
@@ -23,7 +23,7 @@
     text-align: center;
 }
 
-.card-icons button{
+.card-icons a{
     border: none;
     background: none;
     margin: 0 1rem;
