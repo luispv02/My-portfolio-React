@@ -28,7 +28,7 @@ function Hero() {
                         </h2>
            
                         <h3 className="text-white mt-4 front" data-aos="fade-up">
-                            Fron End Develoaper
+                            Desarrollador Front End
                             {<br/>}
                             <Typewriter 
                                 words={[' Html', ' Css', ' JavaScript', ' React', ' Responsive', ' Bootstrap']}
@@ -42,7 +42,7 @@ function Hero() {
                     </Col>
 
                     <Col xs={12} className="text-center">
-                        <button className="btn-cv">Ver CV</button>
+                        <a href="../cv.pdf" target="_blank" rel="noopener noreferrer" className="btn-cv text-decoration-none">Ver CV</a>
                     </Col>
                 </Row>
             </Container>

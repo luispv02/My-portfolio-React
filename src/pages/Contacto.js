@@ -1,10 +1,10 @@
 import React from 'react'
-import Formulario from '../components/Formulario'
+import IconosContacto from '../components/IconosContacto'
 
 function Contacto() {
     return (
         <div>
-            <Formulario />
+            <IconosContacto />
         </div>
     )
 }

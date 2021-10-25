@@ -12,8 +12,9 @@
   padding: 4rem 0 4rem 0;
   background: #8585851a;
 }
-.avatar{
+.imagen{
   width: 90px;
+  border-radius: 30%;
 }
 
 .iconos-redes a{
@@ -32,7 +33,21 @@
 
 @media (min-width: 768px){
   .img-redes{
-    width: 30px;
+    width: 40px;
+  }
+
+  .imagen{
+    width: 120px;
+  }
+}
+
+@media (min-width: 1024px){
+ .imagen{
+    width: 120px;
+  }
+
+  .informacion p{
+    font-size: 1.3rem !important;
   }
 }
 
@@ -79,12 +94,8 @@
   padding: 4rem 0 6rem 0;
 }
 
-.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
-  color: currentColor !important;
-}
-
-.css-1480iag-MuiInputBase-root-MuiInput-root:after{
-  border: none !important;
+.img-contacto{
+  width: 30px;
 }
 
 .contacto button{
@@ -108,4 +119,13 @@
   transform: scale(1.5);
   border-bottom: 2px solid black;
   padding-bottom: 5px;
+}
+
+@media(min-width: 768px){
+  .img-contacto{
+    width: 40px;
+    margin: 0 3rem !important;
+  }
+
+  
 }

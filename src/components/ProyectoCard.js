@@ -26,7 +26,7 @@ function ProyectoCard({proyecto}) {
 
                         <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">Ver Pagina</Tooltip>}>
                             <span>
-                                <a href={proyecto.pagina}>
+                                <a href={proyecto.pagina} target="_blank" rel="noopener noreferrer">
                                     <img src={Internet} alt="icono github" className="icon-github"/>
                                 </a>
                             </span>
@@ -34,30 +34,6 @@ function ProyectoCard({proyecto}) {
                     </div>
                 </div>
             </div>
-
-            {/* <Card className="mb-5">
-                <img src={proyecto.imagen} alt="proyecto" className="img-card"/>
-                    
-                <Card.Body>
-                    <Card.Title>{proyecto.titulo}</Card.Title>
-            
-                    <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">Ver Codigo</Tooltip>}>
-                        <span>
-                            <Button>
-                                <img src={Github} alt="icon github" className="icon-github"/>
-                            </Button>
-                        </span>
-                    </OverlayTrigger>
-
-                    <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">Ver Pagina</Tooltip>}>
-                        <span>
-                            <Button>
-                                <img src={Internet} alt="icon github" className="icon-internet"/>
-                            </Button>
-                        </span>
-                    </OverlayTrigger>
-                </Card.Body>
-            </Card> */}
         </Col>
     )
 }

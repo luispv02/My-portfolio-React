@@ -49,6 +49,9 @@ h3.front{
     .proyectos-card{
         padding: 1rem 2rem 0 2rem !important;
     }
+
+    
+      
 }
 
 @media(min-width:768px){
@@ -63,4 +66,34 @@ h3.front{
     h3.front{
         font-size: 2.2rem;
     }
+
+    .btn-cv:hover{
+        transform: scale(1.1);
+    }
+}
+
+@media(min-width:1024px){
+    .logo{
+        font-size: 1.7rem;
+    }
+
+    .nav-top li a{
+        font-size: 17px;
+    }
+    
+
+    h2.name{
+        font-size: 4rem;
+    }
+
+    h3.front{
+        font-size: 2.5rem;
+    }
+
+    .btn-cv{
+        padding: 13px 35px;
+        margin-top: 1rem;
+        transform: scale(1.1) !important;
+    }
+      
 }
