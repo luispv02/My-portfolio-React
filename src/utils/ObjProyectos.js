@@ -13,9 +13,9 @@ export const objProyectos = [
     },
     {
         imagen: '02.png',
-        titulo: 'Crowdfunding',
-        github: 'https://github.com/luispv02/Crowdfunding',
-        pagina: 'https://crowdfunding-rust.vercel.app/'
+        titulo: 'Administrador de Tareas - ReactJs',
+        github: 'https://github.com/luispv02/Todo-App-React',
+        pagina: 'https://todo-app-react-ivory.vercel.app/'
     },
     {
         imagen: '05.png',
