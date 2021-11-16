@@ -19,9 +19,9 @@ export const objProyectos = [
     },
     {
         imagen: '05.png',
-        titulo: 'Todo App',
-        github: 'https://github.com/luispv02/Todo-App',
-        pagina: 'https://todo-app-theta-sandy.vercel.app/'
+        titulo: 'Buscador Clima',
+        github: 'https://github.com/luispv02/buscador-clima',
+        pagina: 'https://epic-joliot-1078ac.netlify.app'
     },
     {
         imagen: '08.png',
