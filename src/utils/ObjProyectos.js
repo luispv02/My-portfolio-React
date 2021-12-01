@@ -18,15 +18,21 @@ export const objProyectos = [
         pagina: 'https://todo-app-react-ivory.vercel.app/'
     },
     {
-        imagen: '05.png',
+        imagen: '03.png',
         titulo: 'Buscador Clima',
         github: 'https://github.com/luispv02/buscador-clima',
         pagina: 'https://epic-joliot-1078ac.netlify.app'
     },
     {
-        imagen: '08.png',
+        imagen: '04.png',
         titulo: 'Ip address tracker',
         github: 'https://github.com/luispv02/IP-Address-Tracker',
         pagina: 'https://ip-address-tracker-three-coral.vercel.app/'
+    },
+    {
+        imagen: '05.png',
+        titulo: 'Heroes Search',
+        github: 'https://github.com/luispv02/heroes-search',
+        pagina: 'https://heroes-search.vercel.app/'
     }
 ]

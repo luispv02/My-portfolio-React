@@ -11,7 +11,7 @@ function HeaderTop() {
             <Container>
                 <Row className="align-items-md-center">
                     <Col xs={12} md={6}>
-                        <a href="#inicio" className="text-white text-center py-3 text-md-start logo text-decoration-none d-block">
+                        <a href="#inicio" className="text-white text-center py-2 text-md-start logo text-decoration-none d-block">
                             <Typewriter 
                                 words={['LuisPv']}
                                 typeSpeed="350"

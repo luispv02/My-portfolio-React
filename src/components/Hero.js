@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react'
-import Fondo from '../assets/video/fondo3.mp4'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -16,10 +15,10 @@ function Hero() {
     
     return (
         <div className="hero">
-            <video src={Fondo} loop muted autoPlay></video>
+            {/* <video src={Fondo} loop muted autoPlay></video> */}
             <Container>
                 <Row>
-                    <Col xs={12} className="text-center my-5">
+                    <Col xs={12} className="text-center mb-5">
                         <h2 className="text-white name">
                             <Typewriter 
                                 words={['Luis Fernando Perez Varajas']}

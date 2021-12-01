@@ -1,11 +1,16 @@
-video{
+.hero{
     width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    position: absolute;
-    z-index: -1;
-    top: 0;
+    height: 92vh;
+    background-image:url(../assets//images/fondo-mobile.jpg);
+    background-size: cover;
+    background-position:center;
+    padding-top: 40px;
+    
 }
+
+/* position: absolute;
+    z-index: -1;
+    top: 0; */
 
 h2.name{
     font-size: 1.8rem;
@@ -50,13 +55,16 @@ h3.front{
         padding: 1rem 2rem 0 2rem !important;
     }
 
-    
-      
 }
 
 @media(min-width:768px){
     .hero{
-        padding-top: 4.5rem;
+        width: 100%;
+        height: 100vh;
+        background-image:url(../assets//images/fondo-desktop.jpg);
+        background-size: cover;
+        background-position:center;
+        padding-top: 6rem !important;
     }
 
     h2.name{
