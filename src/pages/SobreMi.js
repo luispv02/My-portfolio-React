@@ -22,7 +22,7 @@ function SobreMi() {
                     <Col xs={12} md={7} className="mt-5 mt-md-0">
                         <div className="informacion px-2" data-aos="fade-left">
                             <h2>Sobre Mi</h2>
-                            <p className="mt-2">Desarrollador Web Junior, mi principal objetivo es obtener experiencia laboral y obtener mayor conocimiento en Desarollo Front End. Pasante de la carrera Ingenieria en Sistemas Computaciones. Aprendiendo de forma autodidacta.</p>
+                            <p className="mt-2">Desarrollador Web Front-End Junior, mi principal objetivo es obtener experiencia laboral y obtener mayor conocimiento en Desarollo Front End. Pasante de la carrera Ingenieria en Sistemas Computaciones. Aprendiendo de forma autodidacta.</p>
 
                             <div className="iconos-redes mt-4 text-center">
                                 <a href="https://github.com/luispv02" target="_blank" rel="noopener noreferrer"><img src={Github} alt="icon github" className="img-redes"/></a>

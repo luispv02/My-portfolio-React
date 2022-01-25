@@ -34,5 +34,11 @@ export const objProyectos = [
         titulo: 'Heroes Search',
         github: 'https://github.com/luispv02/heroes-search',
         pagina: 'https://heroes-search.vercel.app/'
+    },
+    {
+        imagen: '06.png',
+        titulo: 'My Diary App ',
+        github: 'https://github.com/luispv02/My-diary',
+        pagina: 'https://my-diary-psi.vercel.app/'
     }
 ]

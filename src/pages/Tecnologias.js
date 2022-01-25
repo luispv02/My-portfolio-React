@@ -3,6 +3,7 @@ import { Container, Row, Col} from 'react-bootstrap'
 import Html from '../assets/images/html.png'
 import Css from '../assets/images/css.png'
 import Javascript from '../assets/images/javascript.png'
+import Bootstrap from '../assets/images/bootstrap.png'
 import ImgReact from '../assets/images/react.png'
 import Responsive from '../assets/images/responsive.png'
 import ListGroup from 'react-bootstrap/ListGroup'
@@ -32,12 +33,16 @@ export default function Tecnologias() {
                                 <img src={Javascript} alt="imagen javascript" className="imagen-tecnologias"/>
                             </OverlayTrigger>
 
-                            <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">Aprendiendo - ReactJs</Tooltip>}>
+                            <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">ReactJs</Tooltip>}>
                                 <img src={ImgReact} alt="imagen react" className="imagen-tecnologias"/>
                             </OverlayTrigger>
 
                             <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">Responsive</Tooltip>}>
                                 <img src={Responsive} alt="imagen react" className="imagen-tecnologias"/>
+                            </OverlayTrigger>
+
+                            <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">Bootstrap</Tooltip>}>
+                                <img src={Bootstrap} alt="imagen boostrap" className="imagen-tecnologias"/>
                             </OverlayTrigger>
                             </div>
                         </div>
